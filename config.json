@@ -1,0 +1,14 @@
+{
+    "host_ip":"192.168.0.150/24",
+    "red_ip":"http://localhost:1880",
+    "find_devices":true,
+    "devices":[
+        { "ip":"192.168.0.110", "device_id":1700300 }
+    ],
+    "mqtt":{
+        "host":"127.0.0.1",
+        "port":1883,
+        "base_topic":"TEST/SITE/"
+    },
+    "loop_time":30
+}
